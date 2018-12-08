@@ -17,7 +17,7 @@ class WorkoutsTableViewController: UITableViewController {
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-        workouts = ["Squats", "Arms", "Welcome to leg day"]
+        workouts = ["Squats", "Arms", "Welcome to leg day", "Squats", "Arms", "Welcome to leg day", "Squats", "Arms", "Welcome to leg day", "Squats", "Arms", "Welcome to leg day", "Squats", "Arms", "Welcome to leg day", "Squats", "Arms", "Welcome to leg day", "Squats", "Arms", "Welcome to leg day", "Squats", "Arms", "Welcome to leg day", ]
     }
 
     // MARK: - Table view data source
@@ -29,7 +29,7 @@ class WorkoutsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 3
+        return workouts.count
     }
 
 
