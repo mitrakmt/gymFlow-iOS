@@ -54,6 +54,9 @@
 		C9D924C921BC64CC009058DD /* GymFlow */ = {
 			isa = PBXGroup;
 			children = (
+				C9D924DE21BC66DE009058DD /* Storyboards */,
+				C9D924DD21BC66D3009058DD /* Models */,
+				C9D924DC21BC66C1009058DD /* Controllers */,
 				C9D924CA21BC64CC009058DD /* AppDelegate.swift */,
 				C9D924CC21BC64CC009058DD /* ViewController.swift */,
 				C9D924CE21BC64CC009058DD /* Main.storyboard */,
@@ -62,6 +65,27 @@
 				C9D924D621BC64CD009058DD /* Info.plist */,
 			);
 			path = GymFlow;
+			sourceTree = "<group>";
+		};
+		C9D924DC21BC66C1009058DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C9D924DD21BC66D3009058DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9D924DE21BC66DE009058DD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
