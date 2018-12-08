@@ -1,5 +1,5 @@
 //
-//  TableViewController.swift
+//  WorkoutsTableViewController
 //  GymFlow
 //
 //  Created by Michael Flores on 12/8/18.
