@@ -12,6 +12,7 @@
 		C9D924D021BC64CC009058DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D924CE21BC64CC009058DD /* Main.storyboard */; };
 		C9D924D221BC64CD009058DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D924D121BC64CD009058DD /* Assets.xcassets */; };
 		C9D924D521BC64CD009058DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D924D321BC64CD009058DD /* LaunchScreen.storyboard */; };
+		C9D924E421BC79F7009058DD /* WorkoutsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D924E321BC79F7009058DD /* WorkoutsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C9D924D121BC64CD009058DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9D924D421BC64CD009058DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9D924D621BC64CD009058DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D924E321BC79F7009058DD /* WorkoutsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,7 @@
 		C9D924C921BC64CC009058DD /* GymFlow */ = {
 			isa = PBXGroup;
 			children = (
-				C9D924DE21BC66DE009058DD /* Storyboards */,
-				C9D924DD21BC66D3009058DD /* Models */,
-				C9D924DC21BC66C1009058DD /* Controllers */,
+				C9D924E521BC7A0E009058DD /* Controllers */,
 				C9D924CA21BC64CC009058DD /* AppDelegate.swift */,
 				C9D924CC21BC64CC009058DD /* ViewController.swift */,
 				C9D924CE21BC64CC009058DD /* Main.storyboard */,
@@ -67,25 +67,12 @@
 			path = GymFlow;
 			sourceTree = "<group>";
 		};
-		C9D924DC21BC66C1009058DD /* Controllers */ = {
+		C9D924E521BC7A0E009058DD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C9D924E321BC79F7009058DD /* WorkoutsTableViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		C9D924DD21BC66D3009058DD /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		C9D924DE21BC66DE009058DD /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +148,7 @@
 			files = (
 				C9D924CD21BC64CC009058DD /* ViewController.swift in Sources */,
 				C9D924CB21BC64CC009058DD /* AppDelegate.swift in Sources */,
+				C9D924E421BC79F7009058DD /* WorkoutsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
