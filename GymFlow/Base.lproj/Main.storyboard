@@ -33,7 +33,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Workouts" id="IT9-KT-z2P">
-                        <barButtonItem key="rightBarButtonItem" title="Add Workout" id="CAN-bp-KPh"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="CAN-bp-KPh"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FZw-iX-Gwg" userLabel="First Responder" sceneMemberID="firstResponder"/>
