@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46D168D221BD93B3004405AF /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D168D121BD93B3004405AF /* WorkoutViewController.swift */; };
 		C9D924CB21BC64CC009058DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D924CA21BC64CC009058DD /* AppDelegate.swift */; };
 		C9D924CD21BC64CC009058DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D924CC21BC64CC009058DD /* ViewController.swift */; };
 		C9D924D021BC64CC009058DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D924CE21BC64CC009058DD /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46D168D121BD93B3004405AF /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 		C9D924C721BC64CC009058DD /* GymFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D924CA21BC64CC009058DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9D924CC21BC64CC009058DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				C9D924E321BC79F7009058DD /* WorkoutsTableViewController.swift */,
+				46D168D121BD93B3004405AF /* WorkoutViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D168D221BD93B3004405AF /* WorkoutViewController.swift in Sources */,
 				C9D924CD21BC64CC009058DD /* ViewController.swift in Sources */,
 				C9D924CB21BC64CC009058DD /* AppDelegate.swift in Sources */,
 				C9D924E421BC79F7009058DD /* WorkoutsTableViewController.swift in Sources */,
